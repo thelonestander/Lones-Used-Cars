@@ -1,0 +1,24 @@
+[
+  {
+    "type": "vehicle_group",
+    "id": "mil_helicopters",
+    "vehicles": [
+      [ "aegis_12", 200 ]
+    ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "runway",
+    "//": "Lower chance of wrecked helis, include planes and other aircraft",
+    "vehicles": [
+      [ "aegis_12", 500 ]
+    ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "mil_helicopters",
+    "vehicles": [
+      [ "aegis_12", 200 ],
+    ]
+  }
+]
