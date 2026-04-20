@@ -3,7 +3,8 @@
     "type": "MOD_INFO",
     "id": "lones_used_cars",
     "name": "<color_yellow>Lone's Used Cars</color>",
-    "authors": [ "Lone" ],
+    "authors": [ "Thelonestander" ],
+	"maintainers": [ "Thelonestander" ],
     "description": "Adds a selection of lightly‑modified used vehicles to the world. Includes lore‑friendly variants that expand the vehicle ecosystem.",
     "category": "content",
     "dependencies": [ "bn" ]
