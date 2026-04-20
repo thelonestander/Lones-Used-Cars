@@ -5,7 +5,7 @@
     "name": "<color_yellow>Lone's Used Cars</color>",
     "authors": [ "Lone" ],
     "description": "Adds a selection of lightly‑modified used vehicles to the world. Includes lore‑friendly variants that expand the vehicle ecosystem.",
-    "category": "vehicles",
+    "category": "content",
     "dependencies": [ "bn" ]
   }
 ]
