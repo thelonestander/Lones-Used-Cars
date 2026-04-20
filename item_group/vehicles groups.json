@@ -20,5 +20,19 @@
     "vehicles": [
       [ "aegis_12", 200 ],
     ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "highway",
+    "vehicles": [
+      [ "military_short_semi", 300 ]
+    ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "military_vehicles",
+    "vehicles": [
+      [ "military_short_semi", 50 ]
+    ]
   }
 ]
