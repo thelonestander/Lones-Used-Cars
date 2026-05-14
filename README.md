@@ -4,4 +4,8 @@ Photo made by Ai
 
 Adds new vehicles to the game Bright Nights
 
-Currently adds one VTOL craft but will eventually get bigger. 
+Hover humvee
+
+The observer
+
+SWAT command unit 
