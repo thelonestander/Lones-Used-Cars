@@ -728,7 +728,7 @@
       {
         "x": 1,
         "y": 3,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "plating_steel", "door_motor", "reinforced_windshield_ne" ]
       },
       {
         "x": 2,
@@ -738,17 +738,17 @@
       {
         "x": -6,
         "y": 3,
-        "parts": [ "frame_horizontal", "wheel_mount_medium", "wheel_wide", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "wheel_mount_medium", "wheel_wide", "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": 1,
         "y": 0,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "door_motor", "reinforced_windshield_horizontal_front" ]
       },
       {
         "x": -8,
         "y": 2,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "plating_steel", "door_motor", "reinforced_windshield_horizontal_rear_edge" ]
       },
       {
         "x": -3,
@@ -773,7 +773,7 @@
       {
         "x": 1,
         "y": 1,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "v_hdshutter", "omnicam", "door_motor" ]
+        "parts": [ "frame_horizontal", "omnicam", "door_motor", "reinforced_windshield_horizontal_front" ]
       },
       {
         "x": -4,
@@ -783,7 +783,7 @@
       {
         "x": -4,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -2,
@@ -818,12 +818,12 @@
       {
         "x": -7,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -7,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": 0,
@@ -838,12 +838,12 @@
       {
         "x": 0,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": 1,
         "y": 2,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "door_motor", "reinforced_windshield_horizontal_front" ]
       },
       {
         "x": -6,
@@ -853,7 +853,7 @@
       {
         "x": -8,
         "y": -1,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "plating_steel", "door_motor", "reinforced_windshield_sw_edge" ]
       },
       {
         "x": -7,
@@ -863,7 +863,7 @@
       {
         "x": -6,
         "y": -1,
-        "parts": [ "frame_horizontal", "wheel_mount_medium", "wheel_wide", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "wheel_mount_medium", "plating_steel", "door_motor", "wheel_wide", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -5,
@@ -878,17 +878,17 @@
       {
         "x": -5,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -1,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -3,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "omnicam", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "omnicam", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": -2,
@@ -898,12 +898,12 @@
       {
         "x": -1,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", { "part": "tank", "fuel": "diesel" }, "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", { "part": "tank", "fuel": "diesel" }, "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": -2,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", { "part": "tank", "fuel": "diesel" }, "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", { "part": "tank", "fuel": "diesel" }, "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": 2,
@@ -913,7 +913,7 @@
       {
         "x": -5,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": -3,
@@ -923,7 +923,7 @@
       {
         "x": -8,
         "y": 0,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "plating_steel", "door_motor", "reinforced_windshield_horizontal_rear_edge" ]
       },
       {
         "x": -6,
@@ -943,12 +943,12 @@
       {
         "x": -8,
         "y": 3,
-        "parts": [ "frame_horizontal", "beeper", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "beeper", "plating_steel", "door_motor", "reinforced_windshield_se_edge" ]
       },
       {
         "x": -4,
         "y": 3,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_right" ]
       },
       {
         "x": -1,
@@ -968,7 +968,7 @@
       {
         "x": 1,
         "y": -1,
-        "parts": [ "frame_horizontal", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_horizontal", "plating_steel", "door_motor", "reinforced_windshield_nw" ]
       },
       {
         "x": -5,
@@ -978,12 +978,12 @@
       {
         "x": -2,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": -3,
         "y": -1,
-        "parts": [ "frame_vertical", "reinforced_windshield", "plating_steel", "v_hdshutter", "omnicam", "door_motor" ]
+        "parts": [ "frame_vertical", "plating_steel", "omnicam", "door_motor", "reinforced_windshield_vertical_left" ]
       },
       {
         "x": 3,
@@ -1019,188 +1019,6 @@
         "x": 1,
         "y": -2,
         "part": "wing_mirror_left"
-      }
-    ]
-  },
-  {
-    "id": "hover_humvee",
-    "type": "vehicle",
-    "name": "Hover Humvee",
-    "parts": [
-      {
-        "x": 3,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "plating_military" ]
-      },
-      {
-        "x": 3,
-        "y": 2,
-        "parts": [ "hdframe_horizontal_2", "plating_military" ]
-      },
-      {
-        "x": 3,
-        "y": 1,
-        "parts": [ "hdframe_horizontal_2", "plating_military" ]
-      },
-      {
-        "x": 3,
-        "y": 0,
-        "parts": [ "hdframe_horizontal_2", "plating_military" ]
-      },
-      {
-        "x": 3,
-        "y": -1,
-        "parts": [ "hdframe_horizontal", "plating_military" ]
-      },
-      {
-        "x": 2,
-        "y": 3,
-        "parts": [ "hdframe_ne", "plating_military", "hover_repulsor" ]
-      },
-      {
-        "x": 2,
-        "y": 2,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military", "headlight_reinforced" ]
-      },
-      {
-        "x": 2,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military", "diesel_engine_v8", "alternator_truck", "battery_car" ]
-      },
-      {
-        "x": 2,
-        "y": 0,
-        "parts": [ "hdframe_horizontal", "hdhalfboard_horizontal", "plating_military", "headlight_reinforced" ]
-      },
-      {
-        "x": 2,
-        "y": -1,
-        "parts": [ "hdframe_nw", "plating_military", "hover_repulsor" ]
-      },
-      {
-        "x": 1,
-        "y": 3,
-        "parts": [ "hdframe_vertical", "reinforced_windshield" ]
-      },
-      {
-        "x": 1,
-        "y": 2,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield" ]
-      },
-      {
-        "x": 1,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield" ]
-      },
-      {
-        "x": 1,
-        "y": 0,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield" ]
-      },
-      {
-        "x": 1,
-        "y": -1,
-        "parts": [ "hdframe_vertical", "reinforced_windshield" ]
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "parts": [ "hdframe_vertical", "hddoor_right" ]
-      },
-      {
-        "x": 0,
-        "y": 2,
-        "parts": [ "hdframe_vertical_2", "hdroof", "NBC_seal", { "part": "tank", "fuel": "jp8" }, "seat", "seatbelt" ]
-      },
-      {
-        "x": 0,
-        "y": 1,
-        "parts": [ "hdframe_vertical_2", "box", "recharge_station", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": 0,
-        "y": 0,
-        "parts": [ "hdframe_vertical_2", "hdroof", "NBC_seal", { "part": "tank", "fuel": "jp8" }, "controls", "dashboard", "vehicle_clock", "horn_big", "seat", "seatbelt" ]
-      },
-      {
-        "x": 0,
-        "y": -1,
-        "parts": [ "hdframe_vertical", "hddoor_left" ]
-      },
-      {
-        "x": -1,
-        "y": 3,
-        "parts": [ "hdframe_vertical", "hddoor_right" ]
-      },
-      {
-        "x": -1,
-        "y": 2,
-        "parts": [ "hdframe_horizontal_2", "seat", "seatbelt", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": -1,
-        "y": 1,
-        "parts": [ "hdframe_horizontal_2", "aisle_horizontal", "hdroof", "NBC_seal", "turret_mount", { "part": "mounted_m240", "ammo": 50, "ammo_types": [ "762_51" ], "ammo_qty": [ 0, 200 ] }, "turret_autoloader" ]
-      },
-      {
-        "x": -1,
-        "y": 0,
-        "parts": [ "hdframe_horizontal_2", "seat", "seatbelt", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": -1,
-        "y": -1,
-        "parts": [ "hdframe_vertical", "hddoor_left" ]
-      },
-      {
-        "x": -2,
-        "y": 3,
-        "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ]
-      },
-      {
-        "x": -2,
-        "y": 2,
-        "parts": [ "hdframe_horizontal_2", "trunk", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": -2,
-        "y": 1,
-        "parts": [ "hdframe_horizontal_2", "trunk", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": -2,
-        "y": 0,
-        "parts": [ "hdframe_horizontal_2", "trunk", "hdroof", "NBC_seal" ]
-      },
-      {
-        "x": -2,
-        "y": -1,
-        "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_military" ]
-      },
-      {
-        "x": -3,
-        "y": 3,
-        "parts": [ "hdframe_se", "plating_military", "wheel_mount_heavy", "hover_repulsor" ]
-      },
-      {
-        "x": -3,
-        "y": 2,
-        "parts": [ "hdframe_horizontal", "hddoor_trunk", "plating_military" ]
-      },
-      {
-        "x": -3,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "hddoor_trunk", "plating_military" ]
-      },
-      {
-        "x": -3,
-        "y": 0,
-        "parts": [ "hdframe_horizontal", "hddoor_trunk", "muffler", "plating_military" ]
-      },
-      {
-        "x": -3,
-        "y": -1,
-        "parts": [ "hdframe_sw", "plating_military", "hover_repulsor" ]
       }
     ]
   }
