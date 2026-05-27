@@ -12,7 +12,7 @@
     "items": {
       "both": {
         "items": [ "tux", "dress_shoes", "socks", "gold_watch", "undershirt", "sword_carbon", "armored_cloak" ],
-        "entries": [ { "item": "afs_wraitheon_smartphone" } ]
+        "entries": [ { "item": "wrist_comp_control" } ]
       },
       "male": [ "briefs", "collarpin", "diamond_ring" ],
       "female": [ "panties", "hairpin", "pearl_collar" ]
