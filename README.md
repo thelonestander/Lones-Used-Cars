@@ -9,3 +9,7 @@ Hover humvee
 The observer
 
 SWAT command unit 
+
+Glider (from spiderman)
+
+A new hover ambulance (based on maxtech from cyberpunk) 
