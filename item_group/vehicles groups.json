@@ -3,7 +3,8 @@
     "type": "vehicle_group",
     "id": "mil_helicopters",
     "vehicles": [
-      [ "aegis_12", 200 ]
+      [ "aegis_12", 200 ],
+	  [ "lonestar", 100 ]
     ]
   },
   {
@@ -50,5 +51,10 @@
     "vehicles": [
       [ "hover_ambulance_mk1", 150 ]
     ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "crashed_aircraft",
+    "vehicles": [ [ "lonestar_wreck", 80 ] ]
   }
 ]
