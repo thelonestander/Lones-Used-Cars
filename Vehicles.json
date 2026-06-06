@@ -1787,6 +1787,7 @@
     "id": "lonestar_wreck",
     "type": "vehicle",
     "name": "T-103B Lonestar",
+	"color_palette": "military_fighter",
     "parts": [
       {
         "x": 0,
@@ -2217,6 +2218,406 @@
         "x": -5,
         "y": 6,
         "part": "wing_carbon_external_horizontal"
+      }
+    ]
+  },
+  {
+    "id": "warhawk",
+    "type": "vehicle",
+    "name": "Warhawk",
+	"color_palette": "military_fighter",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "reclining_seat", "seatbelt", "hdroof", "cam_control", "afs_control_station", "NBC_seal" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_cross", "reinforced_windshield_horizontal_front", "omnicam" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "aisle_carbon_horizontal", "hdroof", "floodlight", "NBC_seal" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_cross", "reinforced_windshield_ne" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_cross", "reinforced_windshield_nw" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_cross", "hdstowboard_vertical" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_cross", "hdstowboard_vertical" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_cross", "hddoor_trunk" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_cross", "hddoor_trunk" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_vertical", "reclining_seat", "seatbelt", "hdroof", "NBC_seal" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdstowboard_vertical" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdstowboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdhalfboard_sw" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_vertical", "hdroof", "aisle_carbon_horizontal", "NBC_seal" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdhalfboard_se" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": -2,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_horizontal", "hdhalfboard_vertical_2" ]
+      },
+      {
+        "x": -3,
+        "y": -3,
+        "parts": [ "frame_horizontal", "hdhalfboard_vertical_2" ]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdroof", "workbench", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "frame_vertical", "hdroof", "aisle_carbon_horizontal", "engine_turbine_large", "NBC_seal", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdroof", "afs_cooking_rig", "NBC_seal" ]
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "parts": [ "frame_horizontal", "hdboard_horizontal", "turret_mount", "turret_autoloader", { "part": "mounted_browning", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_horizontal", "hdboard_horizontal", "turret_mount", "turret_autoloader", { "part": "mounted_browning", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdroof", "reclining_seat", "seatbelt", "NBC_seal" ]
+      },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdroof", "adv_butchery", "NBC_seal" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "frame_vertical", "hdroof", "aisle_carbon_horizontal", "storage_battery", "NBC_seal", "reinforced_solar_panel_v2", "atomic_lamp" ]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -4,
+        "y": -2,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [ "frame_horizontal", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -5,
+        "y": -2,
+        "parts": [ "frame_horizontal", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -6,
+        "y": -2,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdroof", "cargo_space_carbon", "NBC_seal" ]
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "parts": [ "frame_vertical", "hdroof", "aisle_carbon_horizontal", "NBC_seal", "reinforced_solar_panel_v2", "storage_battery" ]
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdroof", "atomic_freezer", "NBC_seal" ]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": [ "frame_vertical", "hdhalfboard_se" ]
+      },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": [ "frame_vertical", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical_2" ]
+      },
+      {
+        "x": -7,
+        "y": -1,
+        "parts": [ "frame_vertical", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -7,
+        "y": -2,
+        "parts": [ "frame_vertical", "hdhalfboard_sw" ]
+      },
+      {
+        "x": -8,
+        "y": 0,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal", "omnicam", "turret_mount", "turret_autoloader", { "part": "mounted_browning", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": -8,
+        "y": -1,
+        "parts": [ "frame_horizontal", "hdhalfboard_sw" ]
+      },
+      {
+        "x": -8,
+        "y": 1,
+        "parts": [ "frame_horizontal", "hdhalfboard_se" ]
+      },
+      {
+        "x": -4,
+        "y": -3,
+        "part": "cargo_space_carbon_external"
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "part": "cargo_space_carbon_external"
+      },
+      {
+        "x": -3,
+        "y": 4,
+        "parts": [ "frame_se", "hdhalfboard_se", "omnicam" ]
+      },
+      {
+        "x": -3,
+        "y": -4,
+        "parts": [ "frame_sw", "hdhalfboard_sw", "omnicam" ]
+      },
+      {
+        "x": -2,
+        "y": -4,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -2,
+        "y": 4,
+        "parts": [ "frame_vertical", "hdhalfboard_vertical" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_cross", "hover_repulsor" ]
+      },
+      {
+        "x": -2,
+        "y": -2,
+        "parts": [ "frame_cross", "hover_repulsor" ]
+      },
+      {
+        "x": -1,
+        "y": -4,
+        "part": "afs_lightweight_frame_vertical"
+      },
+      {
+        "x": -1,
+        "y": 4,
+        "part": "afs_lightweight_frame_vertical"
+      },
+      {
+        "x": -6,
+        "y": -3,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": -4,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": -5,
+        "parts": [ "frame_horizontal", "hover_repulsor" ]
+      },
+      {
+        "x": -5,
+        "y": -5,
+        "parts": [ "frame_vertical", "hdboard_ne" ]
+      },
+      {
+        "x": -7,
+        "y": -5,
+        "parts": [ "frame_vertical", "hdboard_se" ]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": 4,
+        "parts": [ "frame_horizontal", "hdhalfboard_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": 5,
+        "parts": [ "frame_horizontal", "hover_repulsor" ]
+      },
+      {
+        "x": -5,
+        "y": 5,
+        "parts": [ "frame_vertical", "hdboard_nw" ]
+      },
+      {
+        "x": -7,
+        "y": 5,
+        "parts": [ "frame_vertical", "hdboard_nw" ]
+      },
+      {
+        "x": -6,
+        "y": -6,
+        "parts": [ "frame_cross", "hdboard_vertical" ]
+      },
+      {
+        "x": -6,
+        "y": 6,
+        "parts": [ "frame_cross", "hdboard_vertical" ]
+      },
+      {
+        "x": -7,
+        "y": -6,
+        "part": "frame_sw"
+      },
+      {
+        "x": -5,
+        "y": -6,
+        "part": "frame_nw"
+      },
+      {
+        "x": -5,
+        "y": 6,
+        "part": "frame_ne"
+      },
+      {
+        "x": -7,
+        "y": 6,
+        "part": "frame_se"
+      },
+      {
+        "x": -9,
+        "y": -1,
+        "part": "external_tank",
+        "fuel": "null"
+      },
+      {
+        "x": -9,
+        "y": 1,
+        "part": "external_tank",
+        "fuel": "null"
+      },
+      {
+        "x": -9,
+        "y": 0,
+        "part": "jet_thruster"
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "part": "ram_military_horizontal"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "part": "ram_military_horizontal"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "part": "ram_military_horizontal"
+      },
+      {
+        "x": -7,
+        "y": -3,
+        "part": "frame_sw"
+      },
+      {
+        "x": -7,
+        "y": 3,
+        "part": "frame_se"
       }
     ]
   }

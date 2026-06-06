@@ -4,7 +4,8 @@
     "id": "mil_helicopters",
     "vehicles": [
       [ "aegis_12", 200 ],
-	  [ "lonestar", 100 ]
+	  [ "lonestar", 100 ],
+	  [ "warhawk", 100 ]
     ]
   },
   {
@@ -13,13 +14,6 @@
     "//": "Lower chance of wrecked helis, include planes and other aircraft",
     "vehicles": [
       [ "aegis_12", 500 ]
-    ]
-  },
-  {
-    "type": "vehicle_group",
-    "id": "mil_helicopters",
-    "vehicles": [
-      [ "aegis_12", 200 ],
     ]
   },
   {
