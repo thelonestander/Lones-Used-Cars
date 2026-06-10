@@ -1241,17 +1241,17 @@
       {
         "x": 0,
         "y": 0,
-        "parts": [ "frame_vertical", "seat_leather", "engine_turbine_small", "drive_by_wire_controls", "controls_electronic", "controls", "bomber controls", "storage_battery", "generator_7500w", "generator_electric" ]
+        "parts": [ "frame_vertical", "seat_leather", "drive_by_wire_controls", "controls_electronic", "controls", "bomber controls", "minireactor", "engine_electric_super" ]
       },
       {
         "x": 0,
         "y": -1,
-        "parts": [ "frame_cross", "hover_repulsor", { "part": "tank_small", "fuel": "jp8" } ]
+        "parts": [ "frame_cross", "hover_repulsor", "storage_battery" ]
       },
       {
         "x": 0,
         "y": 1,
-        "parts": [ "frame_cross", "hover_repulsor", { "part": "tank_small", "fuel": "jp8" } ]
+        "parts": [ "frame_cross", "hover_repulsor", "storage_battery" ]
       },
       {
         "x": 0,
@@ -1264,7 +1264,7 @@
         "part": "afs_lightweight_frame_horizontal"
       }
     ]
-  },
+  }
   {
     "id": "lonestar",
     "type": "vehicle",
