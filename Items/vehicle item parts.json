@@ -1,0 +1,20 @@
+[
+ {
+    "type": "TOOL",
+    "id": "arc_reactor",
+    "name": { "str": "arc reactor" },
+    "description": "A mini arc reactor.  Handle with great care!",
+    "weight": "10000 g",
+    "to_hit": -4,
+    "color": "light_cyan",
+    "symbol": ":",
+    "material": [ "superalloy", "ceramic" ],
+    "volume": "45 L",
+    "bashing": 7,
+    "category": "veh_parts",
+    "price": "900 USD",
+    "price_postapoc": "50 USD",
+    "ammo": "plutonium",
+    "max_charges": 10000
+  }
+]

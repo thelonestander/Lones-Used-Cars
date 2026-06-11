@@ -6,7 +6,8 @@
       [ "aegis_12", 200 ],
 	  [ "lonestar", 100 ],
 	  [ "warhawk", 100 ],
-	  [ "ufo", 50 ]
+	  [ "ufo", 50 ],
+	  [ "prototype_osprey", 100 ],
     ]
   },
   {
@@ -14,7 +15,8 @@
     "id": "runway",
     "//": "Lower chance of wrecked helis, include planes and other aircraft",
     "vehicles": [
-      [ "aegis_12", 500 ]
+      [ "aegis_12", 500 ],
+	  [ "single_seater_jet", 700 ]
     ]
   },
   {

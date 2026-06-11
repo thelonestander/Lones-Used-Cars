@@ -1,0 +1,10 @@
+[
+{
+    "type": "item_group",
+    "id": "microlab_storage_plutonium_special",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "arc_reactor", "prob": 30 }
+    ]
+  }
+]

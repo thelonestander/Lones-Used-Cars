@@ -1241,17 +1241,17 @@
       {
         "x": 0,
         "y": 0,
-        "parts": [ "frame_vertical", "seat_leather", "drive_by_wire_controls", "controls_electronic", "controls", "bomber controls", "minireactor", "engine_electric_super" ]
+        "parts": [ "frame_vertical", "seat_leather", "engine_turbine_small", "drive_by_wire_controls", "controls_electronic", "controls", "bomber controls", "storage_battery", "generator_7500w", "generator_electric" ]
       },
       {
         "x": 0,
         "y": -1,
-        "parts": [ "frame_cross", "hover_repulsor", "storage_battery" ]
+        "parts": [ "frame_cross", "hover_repulsor", { "part": "tank_small", "fuel": "jp8" } ]
       },
       {
         "x": 0,
         "y": 1,
-        "parts": [ "frame_cross", "hover_repulsor", "storage_battery" ]
+        "parts": [ "frame_cross", "hover_repulsor", { "part": "tank_small", "fuel": "jp8" } ]
       },
       {
         "x": 0,
@@ -3309,6 +3309,512 @@
         "x": -4,
         "y": 3,
         "parts": [ "frame_se", "board_se" ]
+      }
+    ]
+  },
+  {
+    "id": "single_seater_jet",
+    "type": "vehicle",
+    "name": "single seater jet",
+	"color_palette": "military_fighter",
+    "parts": [
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "carbon_halfboard_horizontal" ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "seat", "seatbelt_heavyduty", "xlframe_cross", "programmable_autopilot", "tracker", "black_box", "dashboard", "controls" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "windshield", "xlframe_cross", "wheel_mount_light_steerable_wood" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "door_vertical_left", "xlframe_cross" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "door_vertical_right", "xlframe_cross" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "windshield_ne", "xlframe_cross" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "windshield_nw", "xlframe_cross" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "xlframe_cross", "carbon_halfboard_cover" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "xlframe_cross", "carbon_halfboard_vertical", { "part": "tank_30gal_drum", "fuel": "jp8" } ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "part": "wing_carbon_external_right"
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "part": "wing_carbon_external_left"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "part": "xlframe_vertical"
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "xlframe_cross", "carbon_halfboard_vertical" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "xlframe_cross", "halfboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "xlframe_cross", "carbon_halfboard_vertical", "engine_turbine_medium", "tank_30gal_drum", "alternator_car" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "xlframe_cross", "carbon_halfboard_vertical", "medium_storage_battery" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "xlframe_cross", "carbon_halfboard_vertical" ]
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -6,
+        "y": -1,
+        "part": "wing_carbon_external_left"
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "part": "wing_carbon_external_right"
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -2,
+        "y": -2,
+        "part": "wing_carbon_external_left"
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -4,
+        "y": -2,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -4,
+        "y": -3,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "part": "wing_carbon_external_right"
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "part": "wing_carbon_external_horizontal"
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "part": "lit_wing_carbon_external_right"
+      },
+      {
+        "x": -3,
+        "y": -3,
+        "part": "lit_wing_carbon_external_left"
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "xlframe_horizontal", "wing_carbon_horizontal", "trunk_carbon", "bomber controls" ]
+      },
+      {
+        "x": -3,
+        "y": -2,
+        "parts": [ "xlframe_horizontal", "wheel_mount_light", "wheel_small", "wing_carbon_horizontal", "trunk_carbon", "bomber controls" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "xlframe_horizontal", "wing_carbon_horizontal", "trunk_carbon", "bomber controls" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "xlframe_horizontal", "wheel_mount_light", "wheel_small", "wing_carbon_horizontal", "trunk_carbon", "bomber controls" ]
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "part": "jet_thruster_external"
+      }
+    ]
+  },
+  {
+    "id": "prototype_osprey",
+    "type": "vehicle",
+    "name": "prototype osprey 77",
+	"color_palette": "military_fighter",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "cam_control", "afs_control_station", "programmable_autopilot" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_cross", "windshield" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_cross", "windshield_sw" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_cross", "windshield_sw" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_cross", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_cross", "windshield" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "afs_control_station", "programmable_autopilot", "cam_control" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_cross", "door_internal", "door_motor" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_cross", "board_sw" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [ "frame_cross", "windshield_se_edge" ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [ "frame_cross", "windshield_se_edge" ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "frame_cross", "board_se" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -2,
+        "y": -2,
+        "parts": [ "frame_cross", "board_nw", "turret_mount", "turret_autoloader", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": -3,
+        "y": -2,
+        "parts": [ "frame_cross", "door_motor", "door_opaque" ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": -2,
+        "y": 4,
+        "parts": [ "frame_cross", "board_ne", "turret_mount", "turret_autoloader", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": -3,
+        "y": 4,
+        "parts": [ "frame_cross", "door_motor", "door_opaque" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_cross", "board_sw" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_cross", "board_se" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "frame_cross", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "cam_control" ]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": [ "frame_cross", "stowboard_vertical", "arc_reactor", "roof", "bomber controls" ]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "cam_control" ]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [ "frame_cross", "board_nw" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "cam_control", "medium_storage_battery" ]
+      },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": [ "frame_cross", "stowboard_vertical", "engine_turbine_large", "roof", "bomber controls", "alternator_truck" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "frame_cross", "seat", "seatbelt_heavyduty", "roof", "NBC_seal", "cam_control", "medium_storage_battery" ]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [ "frame_cross", "board_ne" ]
+      },
+      {
+        "x": -4,
+        "y": 4,
+        "parts": [ "frame_cross", "door_motor", "door_opaque", "omnicam" ]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [ "frame_cross", "aisle_horizontal", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": -2,
+        "parts": [ "frame_cross", "door_motor", "door_opaque", "omnicam" ]
+      },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": [ "frame_cross", "board_sw" ]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": [ "frame_cross", "board_se" ]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": [ "frame_horizontal", "board_horizontal" ]
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "parts": [ "frame_cross", "board_horizontal" ]
+      },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": [ "frame_cross", "halfboard_vertical", "tank_55gal_drum" ]
+      },
+      {
+        "x": -8,
+        "y": 1,
+        "parts": [ "frame_cross", "halfboard_vertical", "tank_55gal_drum" ]
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": [ "frame_cross", "halfboard_vertical" ]
+      },
+      {
+        "x": -8,
+        "y": 0,
+        "parts": [ "frame_cross", "halfboard_vertical" ]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": [ "frame_cross", "halfboard_vertical" ]
+      },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [ "frame_cross", "halfboard_vertical" ]
+      },
+      {
+        "x": -9,
+        "y": 1,
+        "parts": [ "frame_cross", "halfboard_vertical", "tank_55gal_drum" ]
+      },
+      {
+        "x": -10,
+        "y": 1,
+        "parts": [ "frame_cross", "halfboard_vertical", "tank_55gal_drum" ]
+      },
+      {
+        "x": -11,
+        "y": 1,
+        "parts": [ "frame_cross", "halfboard_vertical", "heavy_duty_military_osprey_rotors" ]
+      },
+      {
+        "x": -11,
+        "y": 2,
+        "parts": [ "frame_cross", "halfboard_horizontal" ]
+      },
+      {
+        "x": -11,
+        "y": 0,
+        "parts": [ "frame_cross", "halfboard_horizontal" ]
+      },
+      {
+        "x": -11,
+        "y": -1,
+        "parts": [ "frame_cross", "halfboard_horizontal" ]
+      },
+      {
+        "x": -11,
+        "y": 3,
+        "parts": [ "frame_cross", "halfboard_horizontal" ]
+      },
+      {
+        "x": -5,
+        "y": -2,
+        "parts": [ "frame_cross", "board_sw" ]
+      },
+      {
+        "x": -5,
+        "y": 4,
+        "parts": [ "frame_cross", "board_se" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_cross", "heavy_duty_military_osprey_rotors", "roof", "NBC_seal", "aisle_horizontal", "atomic_lamp" ]
       }
     ]
   }
